@@ -7,3 +7,4 @@
 6) quick_shift.c – implementacja szybkiej średniej ruchomej, w której wymyśliłem ciekawą implementacją klasteryzacji pikseli w superpiksele.
 7) funkcje.c – kod funkcji będących częścią modułu jądra Linuxa obsługującego komunikację z Arduino. Moduł pisałem w ramach zajęć bazując na szablonie od prowadzącego więc mimo że jest bardzo ciekawy to zamieszczam jedynie te funkcje. Zmieniają one wybraną połowę bajta na znak oraz 4 znaki będące zapisem liczby 2 bajtowej w systemie hex na liczbę w bajtową.
 8) TEST.c – program systemu RTOS – uCOS, robiony w ramach zajęć na studiach. Jego działanie polega na zadawaniu obciążenia (liczby iteracji inkrementacji) do 15 zadań za pośrednictwem kolejki, mailboxa, oraz semafora. W programie zastosowałem bardzo ciekawy bufor cykliczny i system śledzenia zadawanych obciążeń w trakcie ich przepływu w ramach komunikacji między zadaniami.
+9) py_quick.py - quick_shift w pythonie - patrz pkt 6.
